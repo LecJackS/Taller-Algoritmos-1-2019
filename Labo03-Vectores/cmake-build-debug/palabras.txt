@@ -1,0 +1,1 @@
+hola mundo esta es una lista de palabras donde algunas van a ser palindromos de otras como por ejemplo apa de tres letras y abcdefedcba de un monton
