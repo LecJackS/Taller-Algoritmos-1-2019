@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Jack/Algo-I/Labo03-Vectores/ejercicios.cpp
+ejercicios.h
+C:/Users/Jack/Algo-I/Labo03-Vectores/ejercicios.h
+
+C:/Users/Jack/Algo-I/Labo03-Vectores/ejercicios.h
+iostream
+-
+vector
+-
+utility
+-
+fstream
+-
+cctype
+-
+string
+-
+tuple
+-
+
