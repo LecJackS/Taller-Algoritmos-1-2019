@@ -1,0 +1,3 @@
+/home/lcarreira/Downloads/L04-TallerDebugging/taller/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/lcarreira/Downloads/L04-TallerDebugging/taller/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/lcarreira/Downloads/L04-TallerDebugging/taller/cmake-build-debug/CMakeFiles/taller.dir

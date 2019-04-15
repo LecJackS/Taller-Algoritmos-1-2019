@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/taller.dir/test/cases.cpp.o CMakeFiles/taller.dir/ejercicios.cpp.o CMakeFiles/taller.dir/main.cpp.o  -o taller 
