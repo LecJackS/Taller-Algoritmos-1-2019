@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Jack/Algo-I/Labo03-Vectores/ejercicios.cpp" "C:/Users/Jack/Algo-I/Labo03-Vectores/cmake-build-debug/CMakeFiles/Labo03-Vectores.dir/ejercicios.cpp.obj"
-  "C:/Users/Jack/Algo-I/Labo03-Vectores/main.cpp" "C:/Users/Jack/Algo-I/Labo03-Vectores/cmake-build-debug/CMakeFiles/Labo03-Vectores.dir/main.cpp.obj"
+  "/home/lcarreira/Taller-Algoritmos-1-2019/Labo03-Vectores/ejercicios.cpp" "/home/lcarreira/Taller-Algoritmos-1-2019/Labo03-Vectores/cmake-build-debug/CMakeFiles/Labo03-Vectores.dir/ejercicios.cpp.o"
+  "/home/lcarreira/Taller-Algoritmos-1-2019/Labo03-Vectores/main.cpp" "/home/lcarreira/Taller-Algoritmos-1-2019/Labo03-Vectores/cmake-build-debug/CMakeFiles/Labo03-Vectores.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "MSVC")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

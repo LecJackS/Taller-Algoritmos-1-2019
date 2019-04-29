@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Labo03-Vectores.dir/main.cpp.o CMakeFiles/Labo03-Vectores.dir/ejercicios.cpp.o  -o Labo03-Vectores 

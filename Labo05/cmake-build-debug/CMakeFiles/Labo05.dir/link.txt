@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Labo05.dir/ejercicios.cpp.o CMakeFiles/Labo05.dir/main.cpp.o  -o Labo05 

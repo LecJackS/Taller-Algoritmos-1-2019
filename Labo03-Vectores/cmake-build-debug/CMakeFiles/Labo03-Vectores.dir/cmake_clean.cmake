@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Labo03-Vectores.dir/main.cpp.obj"
-  "CMakeFiles/Labo03-Vectores.dir/ejercicios.cpp.obj"
+  "CMakeFiles/Labo03-Vectores.dir/main.cpp.o"
+  "CMakeFiles/Labo03-Vectores.dir/ejercicios.cpp.o"
   "Labo03-Vectores.pdb"
-  "Labo03-Vectores.exe"
-  "Labo03-Vectores.exe.manifest"
-  "Labo03-Vectores.lib"
+  "Labo03-Vectores"
 )
 
 # Per-language clean rules from dependency scanning.
