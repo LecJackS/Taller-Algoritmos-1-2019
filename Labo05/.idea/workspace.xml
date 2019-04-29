@@ -12,47 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55e024a1-d9c6-4fbf-9cf3-268e743e84ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Labo03-Vectores/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Labo03-Vectores/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Labo03-Vectores/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo03-Vectores/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/3.13.2/CMakeRCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/Labo03-Vectores.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/Labo03-Vectores.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/Labo03-Vectores.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/Labo03-Vectores.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/Labo03-Vectores.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/Labo03-Vectores.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/Labo03-Vectores.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/Labo03-Vectores.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/Labo03-Vectores.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/Labo03-Vectores.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/Labo03-Vectores.dir/embed.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/Labo03-Vectores.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/Labo03-Vectores.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/Labo03-Vectores.dir/intermediate.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/Labo03-Vectores.dir/manifest.rc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/Labo03-Vectores.dir/manifest.res" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/Labo03-Vectores.dir/objects1.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/Labo03-Vectores.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/Labo03-Vectores.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/Labo03-Vectores.dir/vc140.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/Labo03-Vectores.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/Labo03-Vectores.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo03-Vectores/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Labo05.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Labo05.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Labo05" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Labo05" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicios.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,14 +47,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="2187" />
-          <entry key="txt" value="12" />
+          <entry key="cpp" value="2342" />
+          <entry key="txt" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="12" />
-          <entry key="ObjectiveC" value="2187" />
+          <entry key="ObjectiveC" value="2342" />
+          <entry key="PLAIN_TEXT" value="11" />
         </counts>
       </usages-collector>
     </session>
@@ -130,20 +95,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ejercicios.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="270">
+              <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/include/c++/7/bits/stl_vector.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="798" selection-start-line="798" selection-end-line="798" />
             </state>
           </provider>
         </entry>
@@ -157,8 +113,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/ejercicios.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/ejercicios.cpp" />
       </list>
     </option>
   </component>
@@ -168,11 +124,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="67" />
-    <option name="y" value="412" />
+    <option name="y" value="715" />
     <option name="width" value="1799" />
-    <option name="height" value="1000" />
+    <option name="height" value="635" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -238,19 +194,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556569776882</updated>
-      <workItem from="1556569778247" duration="7385000" />
+      <workItem from="1556569778247" duration="10080000" />
     </task>
+    <task id="LOCAL-00001" summary="Subo labo 5">
+      <created>1556577264996</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556577264996</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7385000" />
+    <option name="totallyTimeSpent" value="10080000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="412" width="1799" height="1000" extended-state="0" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19281232" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18705036" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -260,8 +224,8 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3505747" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -277,21 +241,9 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/ejercicios.cpp</url>
-          <line>5</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/ejercicios.cpp</url>
-          <line>21</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Subo labo 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Subo labo 5" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
@@ -327,8 +279,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ejercicios.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="270">
+          <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>

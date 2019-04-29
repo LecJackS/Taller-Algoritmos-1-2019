@@ -6,7 +6,7 @@
 int indice_min_subsec(vector<int> v, int i, int j){
     int min_num = v[i];
     // min_idx es 'l'
-    // todo el tiempo debe cumplir que:
+    // tod o el tiempo debe cumplir que:
     // i-1 <= l <= j
     int min_idx = i-1;
     int res = min_idx + 1;
@@ -26,19 +26,17 @@ int indice_min_subsec(vector<int> v, int i, int j){
 int sumatoria(vector<int> s) {
     int mitad = s.size() / 2;
     int suma = s[mitad];
-    for(int k=1; k < mitad+1; k++){
-        suma = suma + s[mitad-k];
-        if(mitad+k >= s.size()){
-            suma = suma + 0;
-        }
-        else{
-            suma = suma + s[mitad+k];
+    for(int i=1; i < mitad+1; i++){
+        suma = suma + s[mitad-i];
+        if(mitad + i <= s.size()) {
+            suma = suma + s[mitad + i];
         }
     }
 	return suma;
 }
 
 // Ejercicio 3
+// mcd, pero tengo dos variables se mueven entre 0 y m o n
 int mcd(int m, int n){
     int res=1;
     for(int a=0; a<=m; a++){
@@ -60,6 +58,7 @@ int mcd(int m, int n){
 pair<int,int> division(int n, int d){
     int r = n%d; //jeje
     int q = n/d;
+    
 	return make_pair(q,r);
 }
 
