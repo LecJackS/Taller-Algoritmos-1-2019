@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Labo06_matrices.dir/matrix_utilities.cpp.o CMakeFiles/Labo06_matrices.dir/ejercicios.cpp.o CMakeFiles/Labo06_matrices.dir/main.cpp.o  -o Labo06_matrices 

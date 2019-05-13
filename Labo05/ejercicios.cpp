@@ -58,7 +58,7 @@ int mcd(int m, int n){
 pair<int,int> division(int n, int d){
     int r = n%d; //jeje
     int q = n/d;
-    
+
 	return make_pair(q,r);
 }
 

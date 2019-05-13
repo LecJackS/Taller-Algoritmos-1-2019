@@ -12,11 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96ea5ce1-d7bc-497d-bf77-18275ca9aa80" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Labo05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo05/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo05/cmake-build-debug/CMakeFiles/Labo05.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo05/cmake-build-debug/CMakeFiles/Labo05.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo05/cmake-build-debug/Labo05" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo05/cmake-build-debug/Labo05" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Labo05/ejercicios.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Labo05/ejercicios.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +26,7 @@
     <session id="-972633169">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.opened" value="2" />
         </counts>
