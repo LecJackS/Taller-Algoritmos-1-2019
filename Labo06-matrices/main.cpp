@@ -49,5 +49,35 @@ int main() {
     mostrarMatriz(rand_matrix);
     cout << endl;
     mostrarMatriz(matriz41);
+
+    //42 Picos
+    cout << "42 - Picos" << endl;
+    n=4;
+    m=4;
+    vector<vector<float>> rand_float_matrix(n, vector<float>(m, 0));
+    for(int i = 0; i<n; i++){
+        for(int j = 0; j<m; j++){
+            // ramdom values of 3 digit (1 int, 2 decimals) floats as 5.47
+            rand_float_matrix[i][j] = (rand()%1000)/100;
+        }
+    }
+    mostrarMatriz(rand_float_matrix);
+    cout << endl;
+    cout << "Picos: " << contarPicos(rand_float_matrix) << endl;
+
+    //45c - islas
+    cout << "45c - Islas" << endl;
+    n=10;
+    m=10;
+    vector<vector<int>> terreno_matrix(n, vector<int>(m, 0));
+    for(int i = 0; i<n; i++){
+        for(int j = 0; j<m; j++){
+            terreno_matrix[i][j] = rand()%10 - rand()%10;
+        }
+    }
+    cout << "Terreno: " << endl;
+    mostrarMatriz(terreno_matrix);
+
+
     return 0;
 }

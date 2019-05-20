@@ -11,12 +11,21 @@ template <class T>
 void mostrarMatriz(vector<vector<T>> matriz){
     int n = matriz.size();
     int m = 0;
+    int valor;
     if (n>0){
         m = matriz[0].size();
     }
     for(int i = 0; i < n; i++){
         for(int j=0; j<m; j++){
-            cout << matriz[i][j] << "\t";
+            valor = matriz[i][j];
+            if(valor<0){
+                cout << valor << "\t";
+            }
+            else{
+                // add one empty space because sign of negatives
+                cout << " " << valor << "\t";
+            }
+            
         }
         cout << "\n";
     }
@@ -132,14 +141,54 @@ vector<vector<int>> redimensionar(vector<vector<int>> matriz, int n, int m){
 
     return ret;
 }
-/*
+
 // Ej 42
-int contarPicos(vector<vector<int>> matrix){
-    //TODO: implementar
-    return 0;
+bool esPico(vector<vector<float>> matrix, int i, int j){
+    bool res = true;
+    int n = matrix.size();
+    int m = 0;
+    if(n > 0){
+        m = matrix[0].size();
+    }
+    // limites del cuadrado alrededor de i,j
+    int limitMinX = max(0, i-1);
+    int limitMaxX = min(n, i+2);
+    int limitMinY = max(0, j-1);
+    int limitMaxY = min(n, j+2);
+    for(int x = limitMinX; x < limitMaxX; x++) {
+        for(int y = limitMinY; y < limitMaxY; y++){
+            if(matrix[x][y] >= matrix[i][j] && !(x==i && y==j)){
+                //no es pico
+                res = false;
+            }
+        }
+    }
+    //if(res == true){
+    //    cout << "Pico encontrado i,j: [" << i << "," << j << "]" << endl;
+    //}
+    return res;
 }
 
+int contarPicos(vector<vector<float>> matrix){
+    // Dada una matriz, cuenta los picos
+    // Es pico si todas las celdas de alredor tienen un valor menor
+    int n = matrix.size();
+    int m = 0;
+    if(n > 0){
+        m = matrix[0].size();
+    }
+    int acum = 0;
+    for(int i = 0; i < n; i++) {
+        for(int j = 0; j < m; j++){
+            if(esPico(matrix, i, j)){
+                acum++;
+            }
+        }
+    }
+    return acum;
+}
 
+/*
 // Ej 43
 char* estadoTaTeTi(vector<vector<int>> tablero){
     //TODO: implementar
