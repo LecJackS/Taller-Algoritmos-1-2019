@@ -209,13 +209,33 @@ bool sobresalen(vector<vector<int>> terreno, int n, int& mts){
 tuple<int,int> resumen(vector<vector<int>> terreno){
     //TODO: implementar
     return make_pair(0,0);
+}*/
+bool esTierra(int t){
+    return t>=0;
 }
-
 int islas(vector<vector<int>> terreno){
-    //TODO: implementar
+    // Islas: terreno completamente rodeado por agua
+    // Obs:
+    //     descarto bordes
+    vector<int> isla;
+    int casilla;
+    int n = terreno.size();
+    int m = 0;
+    if(n > 0){
+        m = terreno[0].size();
+    }
+    for(int i = 0; i < n; i++) {
+        for(int j = 0; j < m; j++){
+            // por cada casillero, busco en los de alrededor
+            casilla = terreno[i][j];
+            if(esTierra(casilla)){
+                isla.push_back((i,j));
+            }
+        }
+    }
     return 0;
 }
-
+/*
 // Ej 45
 vector<tuple<int, int, int>> aTriplas(vector<vector<int> > m){
     //TODO: implementar
