@@ -1,0 +1,4 @@
+/home/lcarreira/Taller-Algoritmos-1-2019/Laboratorio 07/ejemplo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/lcarreira/Taller-Algoritmos-1-2019/Laboratorio 07/ejemplo/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/lcarreira/Taller-Algoritmos-1-2019/Laboratorio 07/ejemplo/cmake-build-debug/CMakeFiles/Ejemplo.dir
+/home/lcarreira/Taller-Algoritmos-1-2019/Laboratorio 07/ejemplo/cmake-build-debug/CMakeFiles/gtest.dir

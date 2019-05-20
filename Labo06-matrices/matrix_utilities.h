@@ -37,7 +37,7 @@ vector<vector<T>> init_matrix(int n, int m, T defaultValue){
     vector<vector<T>> ret(n, row);
     return ret;
 }
-
+/*
 vector<vector<int>> rand_int_matrix(int n, int m){
     vector<vector<int>> ret;
     for(int i = 0; i<n; i++)
@@ -45,7 +45,7 @@ vector<vector<int>> rand_int_matrix(int n, int m){
             ret[i][j] = rand();
     return ret;
 }
-
+*/
 void transponer(vector<vector<int>> &matriz) {
     int aux;
     int n = matriz.size();

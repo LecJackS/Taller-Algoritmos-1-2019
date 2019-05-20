@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lcarreira/Taller-Algoritmos-1-2019/Laboratorio 07/taller/src/ej3/contandoDragones.cpp
+vector
+-
+iostream
+-
+

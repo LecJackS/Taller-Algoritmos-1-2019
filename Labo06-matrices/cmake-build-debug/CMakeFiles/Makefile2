@@ -59,10 +59,10 @@ RM = /opt/clion-2018.2.6/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lcarreira/CLionProjects/Labo06-matrices
+CMAKE_SOURCE_DIR = /home/lcarreira/Taller-Algoritmos-1-2019/Labo06-matrices
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lcarreira/CLionProjects/Labo06-matrices/cmake-build-debug
+CMAKE_BINARY_DIR = /home/lcarreira/Taller-Algoritmos-1-2019/Labo06-matrices/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/Labo06_matrices.dir
@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /home/lcarreira/CLionProjects/Labo06-matrices/cmake-build-deb
 CMakeFiles/Labo06_matrices.dir/all:
 	$(MAKE) -f CMakeFiles/Labo06_matrices.dir/build.make CMakeFiles/Labo06_matrices.dir/depend
 	$(MAKE) -f CMakeFiles/Labo06_matrices.dir/build.make CMakeFiles/Labo06_matrices.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lcarreira/CLionProjects/Labo06-matrices/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target Labo06_matrices"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lcarreira/Taller-Algoritmos-1-2019/Labo06-matrices/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target Labo06_matrices"
 .PHONY : CMakeFiles/Labo06_matrices.dir/all
 
 # Include target in all.
@@ -81,9 +81,9 @@ all: CMakeFiles/Labo06_matrices.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Labo06_matrices.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lcarreira/CLionProjects/Labo06-matrices/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lcarreira/Taller-Algoritmos-1-2019/Labo06-matrices/cmake-build-debug/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Labo06_matrices.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lcarreira/CLionProjects/Labo06-matrices/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lcarreira/Taller-Algoritmos-1-2019/Labo06-matrices/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/Labo06_matrices.dir/rule
 
 # Convenience name for target.

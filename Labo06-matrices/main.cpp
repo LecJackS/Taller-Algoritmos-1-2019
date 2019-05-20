@@ -19,7 +19,7 @@ int main() {
     }
     mostrarMatriz(rand_matrix);
 
-    //trasponer
+    //transponer
 
     cout << endl << "39 - Transponer";
     transponer(rand_matrix);
@@ -34,6 +34,7 @@ int main() {
     for(int j = 0; j<unVector.size(); j++){
         cout << unVector[j] << " ";
     }
+
     cout << endl << endl;
 
     //40b

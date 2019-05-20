@@ -1,3 +1,3 @@
-/home/lcarreira/CLionProjects/Labo06-matrices/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/lcarreira/CLionProjects/Labo06-matrices/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/lcarreira/CLionProjects/Labo06-matrices/cmake-build-debug/CMakeFiles/Labo06_matrices.dir
+/home/lcarreira/Taller-Algoritmos-1-2019/Labo06-matrices/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/lcarreira/Taller-Algoritmos-1-2019/Labo06-matrices/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/lcarreira/Taller-Algoritmos-1-2019/Labo06-matrices/cmake-build-debug/CMakeFiles/Labo06_matrices.dir
