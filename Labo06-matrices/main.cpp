@@ -74,6 +74,7 @@ int main() {
     for(int i = 1; i<n; i++){
         for(int j = 1; j<m; j++){
             terreno_matrix[i][j] = 0.6*terreno_matrix[i-1][j-1] + 0.4*(0.2*(rand()%10)-0.8*(rand()%10));
+            //terreno_matrix[i][j] = rand()%10 - rand()%10;
         }
     }
     cout << "Altitudes: " << endl;
