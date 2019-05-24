@@ -4,9 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lcarreira/Taller-Algoritmos-1-2019/Labo06-matrices/ejercicios.cpp" "/home/lcarreira/Taller-Algoritmos-1-2019/Labo06-matrices/cmake-build-debug/CMakeFiles/Labo06_matrices.dir/ejercicios.cpp.o"
-  "/home/lcarreira/Taller-Algoritmos-1-2019/Labo06-matrices/main.cpp" "/home/lcarreira/Taller-Algoritmos-1-2019/Labo06-matrices/cmake-build-debug/CMakeFiles/Labo06_matrices.dir/main.cpp.o"
-  "/home/lcarreira/Taller-Algoritmos-1-2019/Labo06-matrices/matrix_utilities.cpp" "/home/lcarreira/Taller-Algoritmos-1-2019/Labo06-matrices/cmake-build-debug/CMakeFiles/Labo06_matrices.dir/matrix_utilities.cpp.o"
+  "/home/jack/Taller-Algoritmos-1-2019/Labo06-matrices/main.cpp" "/home/jack/Taller-Algoritmos-1-2019/Labo06-matrices/cmake-build-debug/CMakeFiles/Labo06_matrices.dir/main.cpp.o"
+  "/home/jack/Taller-Algoritmos-1-2019/Labo06-matrices/matrix_utilities.cpp" "/home/jack/Taller-Algoritmos-1-2019/Labo06-matrices/cmake-build-debug/CMakeFiles/Labo06_matrices.dir/matrix_utilities.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

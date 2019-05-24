@@ -3,4 +3,4 @@ project(Labo06_matrices)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Labo06_matrices matrix_utilities.cpp ejercicios.cpp main.cpp )
+add_executable(Labo06_matrices matrix_utilities.cpp main.cpp )

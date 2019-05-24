@@ -57,7 +57,7 @@ int main() {
     m=4;
     vector<vector<float>> rand_float_matrix(n, vector<float>(m, 0));
     for(int i = 0; i<n; i++){
-        for(int j = 0; j<m; j++){
+        for(int j = 10; j<m; j++){
             // ramdom values of 3 digit (1 int, 2 decimals) floats as 5.47
             rand_float_matrix[i][j] = (rand()%1000)/100;
         }
@@ -68,16 +68,24 @@ int main() {
 
     //45c - islas
     cout << "45c - Islas" << endl;
-    n=10;
-    m=10;
+    n=20;
+    m=15;
     vector<vector<int>> terreno_matrix(n, vector<int>(m, 0));
-    for(int i = 0; i<n; i++){
-        for(int j = 0; j<m; j++){
-            terreno_matrix[i][j] = rand()%10 - rand()%10;
+    for(int i = 1; i<n; i++){
+        for(int j = 1; j<m; j++){
+            terreno_matrix[i][j] = 0.6*terreno_matrix[i-1][j-1] + 0.4*(0.2*(rand()%10)-0.8*(rand()%10));
         }
     }
-    cout << "Terreno: " << endl;
+    cout << "Altitudes: " << endl;
     mostrarMatriz(terreno_matrix);
+    cout << endl << "Tipo: " << endl;
+    cout << endl;
+    mostrarMatriz(discretizarTerreno(terreno_matrix));
+    cout << endl;
+    mostrarMatriz(mostrarIndiceUnico(terreno_matrix));
+    cout << endl;
+    islas(terreno_matrix);
+
 
 
     return 0;
