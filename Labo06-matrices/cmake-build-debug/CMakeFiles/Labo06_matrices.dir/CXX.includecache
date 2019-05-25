@@ -6,11 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/jack/Taller-Algoritmos-1-2019/Labo06-matrices/main.cpp
-iostream
--
-vector
--
+/home/jack/Taller-Algoritmos-1-2019/Labo06-matrices/matrix_utilities.cpp
 matrix_utilities.h
 /home/jack/Taller-Algoritmos-1-2019/Labo06-matrices/matrix_utilities.h
 

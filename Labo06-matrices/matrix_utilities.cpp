@@ -150,6 +150,8 @@ int contarPicos(vector<vector<float>> matrix) {
     return acum;
 }
 
+// aca arranca terreno e islas
+
 vector<vector<int>> mostrarIndiceUnico(vector<vector<int>> terreno) {
     int n=terreno.size();
     int m=0;
@@ -159,7 +161,7 @@ vector<vector<int>> mostrarIndiceUnico(vector<vector<int>> terreno) {
     vector<vector<int>> res(n, vector<int>(m, 0));
     for(int i = 0; i<n; i++){
         for(int j = 0; j<m; j++) {
-            res[i][j] = n * i + j;
+            res[i][j] = m * i + j;
         }
     }
     return res;
@@ -189,6 +191,9 @@ int buscarArea(vector<vector<int>> areas, int indice){
 void mostrarVisitas(vector<vector<char>> mapa, vector<vector<int>> areas) {
     int n = mapa.size();
     int m = 0;
+    if (n>0){
+        m = mapa[0].size();
+    }
     char valor;
     int indice;
     vector<char> nombres;
@@ -196,16 +201,15 @@ void mostrarVisitas(vector<vector<char>> mapa, vector<vector<int>> areas) {
                'N','O','P','Q','R','S','T','U','V','W','X','Y','Z',
                '1','2','3','4','5','6','7','8','9','0'};
     int a;
-    if (n>0){
-        m = mapa[0].size();
-    }
-    for(int i = 0; i < n; i++){
-        for(int j=0; j<m; j++){
+
+    for(int i=0; i < n; i++){
+        for(int j=0; j < m; j++){
             valor = mapa[i][j];
-            indice = i*n+j;
+            indice = i * m + j;
             a = buscarArea(areas, indice);
 
             if(a != -1){
+                a = a % nombres.size(); // si encuentro mas areas que la cant de nombres, repite nombres usados
                 cout << "[" << nombres[a] << "]" << "\t";
             }
             else{
@@ -217,6 +221,7 @@ void mostrarVisitas(vector<vector<char>> mapa, vector<vector<int>> areas) {
 }
 
 void verContorno(vector<vector<int>> terreno, vector<int> &visitadas, int i, int j) {
+    bool VERBOSE = false;
     int casilla = terreno[i][j];
     bool no_es_borde;
     int cx;
@@ -227,7 +232,7 @@ void verContorno(vector<vector<int>> terreno, vector<int> &visitadas, int i, int
         m = terreno[0].size();
     }
     // map (i,j) > indice unico:i*n+j
-    int indice = i*n+j;
+    int indice = i * m + j;
 
     vector<vector<int>> contorno(4, vector<int>(2));
     contorno.assign({{1,0}, {0,1}, {-1,0}, {0,-1}});
@@ -237,26 +242,95 @@ void verContorno(vector<vector<int>> terreno, vector<int> &visitadas, int i, int
         for(int c=0; c<4; c++){
             cx = i + contorno[c][0];
             cy = j + contorno[c][1];
-            indice = cx*n+cy;
-            no_es_borde = (cx < n) && (cy < m) && (cx > 0) && (cy > 0);
+            indice = cx * m + cy;
+            no_es_borde = (cx < n) && (cy < m) && (cx >= 0) && (cy >= 0);
             if(!vecContiene(visitadas, indice) && no_es_borde){
                 // analizo los elementos del contorno de manera recursiva
                 vector<vector<int>> areas;
                 areas.push_back(visitadas);
-                // Verbose step by step
-                //mostrarVisitas(discretizarTerreno(terreno), areas);
-                //cout << endl;
+                // Verbose step by step en el armado de areas
+                if(VERBOSE){
+                    mostrarVisitas(discretizarTerreno(terreno), areas);
+                    cout << endl;
+                }
                 verContorno(terreno, visitadas, cx, cy);
             }
         }
     }
 }
 
+vector<int> indiceUnicoAIJ(int idx, int m){
+    // Algo tipo euclides para obtener las variables i,j
+    // a partir del resultado de su combinacion lineal: indice unico
+    int i=0;
+    int j;
+    while(idx > m){
+        idx -= m;
+        i++;
+    }
+    // j sera
+    j = idx;
+    return {i, j};
+}
+
+bool esIsla(vector<vector<int>> terreno, vector<int> area){
+    bool en_rango;
+    bool es_propio_terreno;
+    int cx, cy;
+    int n = terreno.size();
+    int m = 0;
+    if(n > 0){
+        m = terreno[0].size();
+    }
+    int i, j;
+    vector<int> idxIJ(2); //contiene indices i, j
+    vector<vector<int>> contorno(4, vector<int>(2));
+    contorno.assign({{1, 0}, {1, 1},  {0, 1}, {-1, 1},
+                     {-1,0}, {-1,-1}, {0,-1}, {1, -1}});
+    for(int a=0; a<area.size(); a++){
+        // Busca en el contorno completo  DE CADA celda
+        // Si es agua o terreno de SU area, sigue
+        // Si no, NO es isla
+        for(int c=0; c<8; c++){
+            // area contiene indices unicos, vuelvo a i,j; indice = i*m+j;
+            // necesito convertirlo a los i j de la matriz nuevamente
+            idxIJ = indiceUnicoAIJ(area[a], m);
+            i = idxIJ[0];
+            j = idxIJ[1];
+            cx = i + contorno[c][0];
+            cy = j + contorno[c][1];
+            en_rango = (cx < n) && (cy < m) && (cx >= 0) && (cy >= 0);
+            es_propio_terreno = vecContiene(area, cx*m + cy);
+
+            if(en_rango && !es_propio_terreno && esTierra(terreno[cx][cy])){
+                // no es una isla!
+                return false;
+            }
+        }
+    }
+    // es una isla!
+    return true;
+}
+
+
+void buscarIslas(vector<vector<int>> terreno, vector<vector<int>> areas, vector<vector<int>> &islas) {
+    // Dada una lista de areas, cuenta las islas
+    // Isla: area COMPLETAMENTE rodeada por agua,
+    // esto implica > contorno de isla es agua o terreno de SU area
+    for(int a=0; a<areas.size(); a++){
+        // cada area contiene una lista de casilleros que lo componen
+        if(esIsla(terreno, areas[a])){
+            // guardo area como isla
+            islas.push_back(areas[a]);
+        }
+    }
+}
+
 int islas(vector<vector<int>> terreno) {
+    bool VERBOSE = false;
     // Islas: terreno completamente rodeado por agua
-    // Obs:
-    //     descarto bordes pues no se si los rodea agua
-    vector<int> isla;
+    // Areas: celdas de tierra conectadas directamente en x o y (no en diagonal)
+    vector<vector<int>> islas;
     int casilla;
     int indice;
     vector<int> visitadas;
@@ -267,27 +341,35 @@ int islas(vector<vector<int>> terreno) {
     if(n > 0){
         m = terreno[0].size();
     }
-    for(int i = 1; i < n-1; i++) {
-        for(int j = 1; j < m-1; j++){
+    for(int i = 0; i < n; i++) {
+        for(int j = 0; j < m; j++){
             // por cada casillero, busco en los de alrededor
             casilla = terreno[i][j];
-            indice = i*n+j;
+            indice = i * m + j;
             //cout << endl;
             if(esTierra(casilla) && buscarArea(areas, indice)==-1 ){
                 visitadas = {};
                 verContorno(terreno, visitadas, i, j);
                 areas.push_back(visitadas);
-                cout << "Nuevo area agregada: #" << areas.size() << endl;
+                if(VERBOSE){
+                    cout << "Nuevo area agregada: #" << areas.size() << endl;
+                }
+
             }
         }
     }
+    buscarIslas(terreno, areas, islas);
+    //
+    cout << "Areas encontradas: " << areas.size() << endl;
     mostrarVisitas(discretizarTerreno(terreno), areas);
     cout << endl;
     //mostrarMatriz(areas);
+    cout << "Islas encontradas: " << islas.size()  << endl;
+    mostrarVisitas(discretizarTerreno(terreno), islas);
     cout << endl;
-    return 0;
+    cout << "Islas contadas: "<< endl;
+    return islas.size();
 }
-
 
 
 vector<vector<char>> discretizarTerreno(vector<vector<int>> terreno) {

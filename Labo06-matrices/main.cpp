@@ -67,27 +67,31 @@ int main() {
     cout << "Picos: " << contarPicos(rand_float_matrix) << endl;
 
     //45c - islas
+
+
     cout << "45c - Islas" << endl;
+    // Creando matriz terreno:
     n=20;
-    m=15;
+    m=20;
     vector<vector<int>> terreno_matrix(n, vector<int>(m, 0));
     for(int i = 1; i<n; i++){
         for(int j = 1; j<m; j++){
+            // aca estaria bueno usar algo como Perlin noise
             terreno_matrix[i][j] = 0.6*terreno_matrix[i-1][j-1] + 0.4*(0.2*(rand()%10)-0.8*(rand()%10));
             //terreno_matrix[i][j] = rand()%10 - rand()%10;
         }
     }
     cout << "Altitudes: " << endl;
     mostrarMatriz(terreno_matrix);
-    cout << endl << "Tipo: " << endl;
+    cout << endl << "Tipo de terreno " << endl;
+    cout << "O : tierra" << endl << "~ : agua" << endl;
     cout << endl;
     mostrarMatriz(discretizarTerreno(terreno_matrix));
     cout << endl;
-    mostrarMatriz(mostrarIndiceUnico(terreno_matrix));
+    //cout << "Matriz de indices unicos:" << endl;
+    //mostrarMatriz(mostrarIndiceUnico(terreno_matrix));
     cout << endl;
-    islas(terreno_matrix);
-
-
-
+    cout << islas(terreno_matrix) << endl;
+    
     return 0;
 }

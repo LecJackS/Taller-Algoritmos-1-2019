@@ -7,6 +7,7 @@ using namespace std;
 int a(int b);
 
 
+
 template <class T>
 void mostrarMatriz(vector<vector<T>> matriz){
     int n = matriz.size();
@@ -97,12 +98,13 @@ tuple<int,int> resumen(vector<vector<int>> terreno){
     return make_pair(0,0);
 }*/
 bool esTierra(int t);
-int islas(vector<vector<int>> terreno);
 void verContorno(vector<vector<int>> terreno, int i, int j);
 
 vector<vector<char>> discretizarTerreno(vector<vector<int>> terreno);
 vector<vector<int>> mostrarIndiceUnico(vector<vector<int>> terreno);
 void mostrarVisitas(vector<vector<char>> mapa, vector<int> visitadas);
+void buscarIslas(vector<vector<int>> terreno, vector<vector<int>> areas, vector<vector<int>> &islas);
+int islas(vector<vector<int>> terreno);
 
 
 
