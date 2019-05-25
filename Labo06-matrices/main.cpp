@@ -92,6 +92,6 @@ int main() {
     //mostrarMatriz(mostrarIndiceUnico(terreno_matrix));
     cout << endl;
     cout << islas(terreno_matrix) << endl;
-    
+
     return 0;
 }
