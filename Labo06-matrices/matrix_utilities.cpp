@@ -276,6 +276,7 @@ vector<int> indiceUnicoAIJ(int idx, int m){
 bool esIsla(vector<vector<int>> terreno, vector<int> area){
     bool en_rango;
     bool es_propio_terreno;
+    bool centro_borde;
     int cx, cy;
     int n = terreno.size();
     int m = 0;
@@ -299,10 +300,12 @@ bool esIsla(vector<vector<int>> terreno, vector<int> area){
             j = idxIJ[1];
             cx = i + contorno[c][0];
             cy = j + contorno[c][1];
+            // por cada celda-contigua pregunto
             en_rango = (cx < n) && (cy < m) && (cx >= 0) && (cy >= 0);
             es_propio_terreno = vecContiene(area, cx*m + cy);
+            centro_borde = (i == n-1) || (j == m-1);
 
-            if(en_rango && !es_propio_terreno && esTierra(terreno[cx][cy])){
+            if(centro_borde || (en_rango && !es_propio_terreno && esTierra(terreno[cx][cy]))){
                 // no es una isla!
                 return false;
             }
