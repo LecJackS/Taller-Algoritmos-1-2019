@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lcarreira/Taller-Algoritmos-1-2019/Labo08/Ejercicios/ejercicios.h
+iostream
+-
+vector
+-
+string
+-
+cmath
+-
+fstream
+-
+ctime
+-
+
+/home/lcarreira/Taller-Algoritmos-1-2019/Labo08/Ejercicios/main.cpp
+fstream
+-
+ejercicios.h
+/home/lcarreira/Taller-Algoritmos-1-2019/Labo08/Ejercicios/ejercicios.h
+

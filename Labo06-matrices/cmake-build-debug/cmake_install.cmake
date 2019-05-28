@@ -1,4 +1,4 @@
-# Install script for directory: /home/jack/Taller-Algoritmos-1-2019/Labo06-matrices
+# Install script for directory: /home/lcarreira/Taller-Algoritmos-1-2019/Labo06-matrices
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jack/Taller-Algoritmos-1-2019/Labo06-matrices/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/lcarreira/Taller-Algoritmos-1-2019/Labo06-matrices/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

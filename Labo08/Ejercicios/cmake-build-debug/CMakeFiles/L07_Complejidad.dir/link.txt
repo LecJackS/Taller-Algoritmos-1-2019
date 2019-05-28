@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/L07_Complejidad.dir/main.cpp.o CMakeFiles/L07_Complejidad.dir/ejercicios.cpp.o  -o L07_Complejidad 

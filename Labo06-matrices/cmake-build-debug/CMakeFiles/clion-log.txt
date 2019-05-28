@@ -1,4 +1,0 @@
-/snap/clion/70/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/jack/Taller-Algoritmos-1-2019/Labo06-matrices
--- Configuring done
--- Generating done
--- Build files have been written to: /home/jack/Taller-Algoritmos-1-2019/Labo06-matrices/cmake-build-debug
