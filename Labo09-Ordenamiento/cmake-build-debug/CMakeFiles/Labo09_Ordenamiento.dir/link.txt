@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Labo09_Ordenamiento.dir/main.cpp.o  -o Labo09_Ordenamiento 

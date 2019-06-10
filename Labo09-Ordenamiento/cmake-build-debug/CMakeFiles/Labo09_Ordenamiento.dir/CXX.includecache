@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lcarreira/Taller-Algoritmos-1-2019/Labo09-Ordenamiento/main.cpp
+iostream
+-
+string
+-
+vector
+-
+
